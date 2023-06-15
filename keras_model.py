@@ -13,3 +13,5 @@ def get_clf(meta, hidden_layer_sizes, dropout):
         model.add(Dropout(dropout))
     model.add(Dense(1, activation="sigmoid"))
     return model
+
+	# comment to check integration between SAS EG and Git
